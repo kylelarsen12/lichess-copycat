@@ -1,0 +1,57 @@
+* {
+  color: #bababa;
+}
+
+.searchbar {
+  display: flex;
+  align-items: flex-start;
+  justify-items: right;
+}
+
+body {
+  background: #161512 linear-gradient(to bottom, #2e2a24, #161512 116px)
+    no-repeat;
+}
+
+.navbar {
+  background: #161512 linear-gradient(to bottom, #2e2a24, #161512 116px)
+    no-repeat;
+
+  position: absolute;
+  left: 1em;
+}
+
+.container {
+  position: relative;
+  top: 5em;
+}
+
+.other-buttons {
+  position: relative;
+  top: 8em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #bababa;
+}
+
+.navbar-light .navbar-brand {
+  color: #bababa;
+}
+
+.tourney-buttons > button {
+  margin: 0.25em;
+  background-color: #2e2a24;
+  border: none;
+}
+
+.other-buttons > button {
+  margin: 0.25em;
+  background-color: #2e2a24;
+  border: none;
+  width: 15em;
+}
+
+.stream-links > a {
+  text-decoration: none;
+}
